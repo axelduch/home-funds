@@ -1,0 +1,36 @@
+<h1>Available budget: <span class="green">{{budget | currency:""}} €</span></h1>
+<h2>Money spent: <span class="red">{{moneySpent | currency:""}} €</span></h2>
+<h3>Money spent by purchase (average): <span class="blue">{{average | currency:""}} €</span></h3>
+<h4>Purchases count: {{purchases.length || '-'}}</h4>
+<hr>
+<div class="row">
+    <div class="span16 purchase-item"
+         ng-repeat="purchase in purchases"
+         ng-controller="PurchaseEditCtrl"
+         ng-click="edit()">
+            <ul class="enhanced">
+                <li>{{purchase.name}}</li>
+                <li>{{purchase.price}}€</li>
+                <li>{{purchase.description || 'No description'}}</li>
+                <li>{{purchase.date}}</li>
+                <ng-switch on="sub">
+                    <ng-switch-when="edit">
+                    <ng-switch on="switchEdit">
+                        <li>
+                            <button class="btn btn-danger" ng-click="delete()" ng-switch-when="true">delete</button>
+                        </li>
+                    </ng-switch>
+                </ng-switch>
+            </ul>
+        </ng-switch>
+
+    </div>
+    <ng-switch on="sub">
+        <div ng-switch-when="new" class="span16 purchase-item">
+            <new></new>
+        </div>
+        <div ng-switch-default class="span16 purchase-item">
+            <sub-nav></sub-nav>
+        </div>
+    </ng-switch>
+</div>

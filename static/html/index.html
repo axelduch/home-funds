@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="purchase">
+<head>
+    <title>Purchases</title>
+    <link rel="stylesheet" type="text/css" href="/home-funds/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/home-funds/css/purchase.css" />
+</head>
+<body>
+<div ng-view></div>
+<script>
+    var GLOBAL_APP = {};
+    GLOBAL_APP.root = '/home-funds/';
+    GLOBAL_APP.webRoot = GLOBAL_APP.root + 'index.php';
+    GLOBAL_APP.apiUrl = GLOBAL_APP.webRoot + '/api';
+</script>
+<script src="/home-funds/static/js/libs/angular.min.js"></script>
+<script src="/home-funds/static/js/libs/angular-resource.min.js"></script>
+<script src="/home-funds/static/js/purchase.js"></script>
+<script src="/home-funds/static/js/directives.js"></script>
+<script src="/home-funds/static/js/rest.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+li {
+	list-style: none;
+}
+
+.odd {
+	background: #BBBBBB;
+}
+
+.even {
+	background: #80CFFF;
+}
+
+.purchase-form {
+	padding-left: 25px;
+}
+
+.input-price-size {
+	width: 180px;
+}
+
+.purchase-item {
+	height: 150px;
+	border: 1px solid #FFF;
+}
+
+ul.enhanced li:first-child {
+	color: #55AADD;
+}
+
+.add-purchase-btn {
+	font-size: 58px;
+	vertical-align: middle;
+	width: 100%;
+	padding: 30px 0 30px 0;
+}
+
+.green {
+	color: #55CC55;
+}
+
+.blue {
+	color: #55AADD;
+}
+
+.red {
+	color: #EE5555;
+}

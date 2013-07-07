@@ -1,0 +1,1967 @@
+2013/05/26 14:39:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/admin
+---
+2013/05/26 14:39:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(270): CController->missingAction('admin')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('site/admin')
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/site/admin
+---
+2013/05/26 14:40:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "gii".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(270): CController->missingAction('gii')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('gii')
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('site/gii')
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/site/gii
+---
+2013/05/26 14:49:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "employee".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(270): CController->missingAction('employee')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('employee')
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('site/employee')
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/site/employee
+---
+2013/05/26 15:00:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "department".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('department')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/department
+---
+2013/05/26 15:00:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "departement".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('departement')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/departement
+---
+2013/05/26 15:01:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/admin
+---
+2013/05/29 16:05:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "posts".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('posts')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/posts
+---
+2013/05/29 16:09:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(270): CController->missingAction('')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('')
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api')
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/api
+---
+2013/05/29 17:57:11 [error] [php] include(Post.php): failed to open stream: No such file or directory (C:\wamp\www\libs-pristine\yii-1.1.13\YiiBase.php:421)
+Stack trace:
+#0 C:\wamp\www\yii-test\protected\controllers\ApiController.php(14): spl_autoload_call()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\actions\CInlineAction.php(49): ApiController->actionList()
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): ApiController->runAction()
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): ApiController->runActionWithFilters()
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): ApiController->run()
+#6 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\wamp\www\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/api/create
+in C:\wamp\www\yii-test\protected\controllers\ApiController.php (14)
+in C:\wamp\www\yii-test\index.php (13)
+2013/05/29 17:59:54 [error] [exception.CException] exception 'CException' with message 'Property "ApiController._sendResponse" is not defined.' in C:\wamp\www\libs-pristine\yii-1.1.13\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii-test\protected\controllers\ApiController.php(14): CComponent->__get('_sendResponse')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\actions\CInlineAction.php(49): ApiController->actionList()
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('list')
+#6 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/list')
+#7 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii-test/index.php/api/create
+---
+2013/05/29 18:22:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(270): CController->missingAction('')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('')
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api')
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/api
+---
+2013/05/29 18:38:06 [error] [php] Undefined index: model (C:\wamp\www\yii-test\protected\controllers\ApiController.php:17)
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): ApiController->runAction()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): ApiController->run()
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/api
+in C:\wamp\www\yii-test\protected\controllers\ApiController.php (17)
+in C:\wamp\www\yii-test\index.php (13)
+2013/05/29 18:38:26 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "_sendResponse".' in C:\wamp\www\libs-pristine\yii-1.1.13\base\CComponent.php:265
+Stack trace:
+#0 C:\wamp\www\yii-test\protected\controllers\ApiController.php(24): CComponent->__call('_sendResponse', Array)
+#1 C:\wamp\www\yii-test\protected\controllers\ApiController.php(24): ApiController->_sendResponse(501, 'Error: Mode <b>...')
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\actions\CInlineAction.php(49): ApiController->actionList()
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#6 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('list')
+#7 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/list')
+#8 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii-test/index.php/api/view
+---
+2013/05/29 18:40:58 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "_getStatusCodeMessage".' in C:\wamp\www\libs-pristine\yii-1.1.13\base\CComponent.php:265
+Stack trace:
+#0 C:\wamp\www\yii-test\protected\controllers\ApiController.php(47): CComponent->__call('_getStatusCodeM...', Array)
+#1 C:\wamp\www\yii-test\protected\controllers\ApiController.php(47): ApiController->_getStatusCodeMessage(501)
+#2 C:\wamp\www\yii-test\protected\controllers\ApiController.php(24): ApiController->_sendResponse(501, 'Error: Mode <b>...')
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\actions\CInlineAction.php(49): ApiController->actionList()
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#7 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('list')
+#8 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/list')
+#9 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-test/index.php/api/view
+---
+2013/05/30 01:19:44 [error] [php] Undefined index: model (C:\wamp\www\yii-test\protected\controllers\ApiController.php:21)
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): ApiController->runAction()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): ApiController->run()
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/api
+in C:\wamp\www\yii-test\protected\controllers\ApiController.php (21)
+in C:\wamp\www\yii-test\index.php (13)
+2013/05/30 01:33:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(270): CController->missingAction('')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('')
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api')
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/api
+---
+2013/05/30 01:33:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(270): CController->missingAction('')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('')
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api')
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/api
+---
+2013/05/30 01:33:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(270): CController->missingAction('')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('')
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api')
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/api
+---
+2013/05/30 01:46:41 [error] [php] Trying to get property of non-object (C:\wamp\www\yii-test\protected\controllers\ApiController.php:42)
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): ApiController->runAction()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): ApiController->run()
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/api/employees
+in C:\wamp\www\yii-test\protected\controllers\ApiController.php (42)
+in C:\wamp\www\yii-test\index.php (13)
+2013/05/30 01:46:41 [error] [php] Trying to get property of non-object (C:\wamp\www\yii-test\protected\controllers\ApiController.php:42)
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): ApiController->runAction()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): ApiController->run()
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/api/employees
+in C:\wamp\www\yii-test\protected\controllers\ApiController.php (42)
+in C:\wamp\www\yii-test\index.php (13)
+2013/05/30 01:47:02 [error] [php] Trying to get property of non-object (C:\wamp\www\yii-test\protected\controllers\ApiController.php:43)
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): ApiController->runAction()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): ApiController->run()
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/api/employees
+in C:\wamp\www\yii-test\protected\controllers\ApiController.php (43)
+in C:\wamp\www\yii-test\index.php (13)
+2013/05/30 02:29:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "purchase" was not found.' in C:\wamp\www\libs-pristine\yii-1.1.13\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\actions\CViewAction.php(123): CViewAction->resolveView('purchase')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('page')
+#6 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii-test/index.php/site/page?view=purchase
+---
+2013/05/30 02:31:31 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii-test.purchase' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `purchase`.
+in C:\wamp\www\yii-test\index.php (13)
+2013/05/30 02:49:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/admin
+---
+2013/05/30 03:01:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "create".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(270): CController->missingAction('create')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('create')
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('purchase/create')
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/purchase/create
+---
+2013/05/30 03:02:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(270): CController->missingAction('')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('')
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api')
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/api
+---
+2013/05/30 04:02:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('css')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/css
+---
+2013/05/30 04:02:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/css/form.css
+---
+2013/05/30 13:24:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "purchase".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(270): CController->missingAction('purchase')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('purchase')
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/purchase')
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/api/purchase/1
+HTTP_REFERER=http://localhost:8080/yii-test/js/yii-test/index.html
+---
+2013/05/30 13:24:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "purchase".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(270): CController->missingAction('purchase')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('purchase')
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/purchase')
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/api/purchase/1
+HTTP_REFERER=http://localhost:8080/yii-test/js/yii-test/index.html
+---
+2013/05/31 02:08:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('js/lib/jquery.j...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii
+---
+2013/05/31 02:11:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jui/css/base/jquery-ui.css".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jui/...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jui/css/base/jquery-ui.css
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:11:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jque...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:11:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jui/js/jquery-ui.min.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jui/...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jui/js/jquery-ui.min.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:11:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jque...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:11:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jui/js/jquery-ui.min.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jui/...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jui/js/jquery-ui.min.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:11:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jui/css/base/jquery-ui.css".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jui/...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jui/css/base/jquery-ui.css
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:11:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jui/js/jquery-ui.min.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jui/...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jui/js/jquery-ui.min.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:11:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jque...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:11:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jui/css/base/jquery-ui.css".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jui/...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jui/css/base/jquery-ui.css
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:11:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to find the code you requested.' in C:\wamp\www\libs-pristine\yii-1.1.13\gii\CCodeGenerator.php:119
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\actions\CInlineAction.php(49): CCodeGenerator->actionDiff()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('diff')
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/model/diff/...')
+#6 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/yii-test/index.php/gii/model/diff/id/0
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:11:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to find the code you requested.' in C:\wamp\www\libs-pristine\yii-1.1.13\gii\CCodeGenerator.php:119
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\actions\CInlineAction.php(49): CCodeGenerator->actionDiff()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('diff')
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/model/diff/...')
+#6 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/yii-test/index.php/gii/model/diff/id/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model/diff/id/0
+---
+2013/05/31 02:11:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jui/js/jquery-ui.min.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jui/...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jui/js/jquery-ui.min.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:11:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jui/css/base/jquery-ui.css".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jui/...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jui/css/base/jquery-ui.css
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:11:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jque...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:11:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jque...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/controller
+---
+2013/05/31 02:12:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jque...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/controller
+---
+2013/05/31 02:12:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to find the code you requested.' in C:\wamp\www\libs-pristine\yii-1.1.13\gii\CCodeGenerator.php:119
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\actions\CInlineAction.php(49): CCodeGenerator->actionDiff()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('diff')
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/controller/...')
+#6 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/yii-test/index.php/gii/controller/diff/id/0
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/controller
+---
+2013/05/31 02:12:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to find the code you requested.' in C:\wamp\www\libs-pristine\yii-1.1.13\gii\CCodeGenerator.php:119
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\actions\CInlineAction.php(49): CCodeGenerator->actionDiff()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('diff')
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/controller/...')
+#6 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/yii-test/index.php/gii/controller/diff/id/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/controller/diff/id/0
+---
+2013/05/31 02:12:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jque...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/
+---
+2013/05/31 02:12:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jque...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/
+---
+2013/05/31 02:12:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(270): CController->missingAction('js')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('js')
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/default/js/...')
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/gii/default/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/default/login
+---
+2013/05/31 02:12:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(270): CController->missingAction('js')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('js')
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/default/js/...')
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/gii/default/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/default/index
+---
+2013/05/31 02:12:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jque...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/controller
+---
+2013/05/31 02:12:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jque...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/controller
+---
+2013/05/31 02:12:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to find the code you requested.' in C:\wamp\www\libs-pristine\yii-1.1.13\gii\CCodeGenerator.php:119
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\actions\CInlineAction.php(49): CCodeGenerator->actionDiff()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('diff')
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/controller/...')
+#6 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/yii-test/index.php/gii/controller/diff/id/0
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/controller
+---
+2013/05/31 02:12:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to find the code you requested.' in C:\wamp\www\libs-pristine\yii-1.1.13\gii\CCodeGenerator.php:119
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\actions\CInlineAction.php(49): CCodeGenerator->actionDiff()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('diff')
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/controller/...')
+#6 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/yii-test/index.php/gii/controller/diff/id/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/controller/diff/id/0
+---
+2013/05/31 02:12:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to find the code you requested.' in C:\wamp\www\libs-pristine\yii-1.1.13\gii\CCodeGenerator.php:119
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\actions\CInlineAction.php(49): CCodeGenerator->actionDiff()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('diff')
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/controller/...')
+#6 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/yii-test/index.php/gii/controller/diff/id/0
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/controller
+---
+2013/05/31 02:12:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to find the code you requested.' in C:\wamp\www\libs-pristine\yii-1.1.13\gii\CCodeGenerator.php:119
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\actions\CInlineAction.php(49): CCodeGenerator->actionDiff()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('diff')
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/controller/...')
+#6 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/yii-test/index.php/gii/controller/diff/id/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/controller/diff/id/0
+---
+2013/05/31 02:12:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(270): CController->missingAction('js')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('js')
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/controller/...')
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/gii/controller/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/controller/
+---
+2013/05/31 02:12:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(270): CController->missingAction('js')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('js')
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/controller/...')
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/gii/controller/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/controller/
+---
+2013/05/31 02:13:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to find the code you requested.' in C:\wamp\www\libs-pristine\yii-1.1.13\gii\CCodeGenerator.php:119
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\actions\CInlineAction.php(49): CCodeGenerator->actionDiff()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('diff')
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/controller/...')
+#6 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/yii-test/index.php/gii/controller/diff/id/0
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/controller/
+---
+2013/05/31 02:13:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to find the code you requested.' in C:\wamp\www\libs-pristine\yii-1.1.13\gii\CCodeGenerator.php:119
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\actions\CInlineAction.php(49): CCodeGenerator->actionDiff()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('diff')
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/controller/...')
+#6 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/yii-test/index.php/gii/controller/diff/id/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/controller/diff/id/0
+---
+2013/05/31 02:15:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to find the code you requested.' in C:\wamp\www\libs-pristine\yii-1.1.13\gii\CCodeGenerator.php:119
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\actions\CInlineAction.php(49): CCodeGenerator->actionDiff()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('diff')
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/controller/...')
+#6 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/yii-test/index.php/gii/controller/diff/id/0
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/controller/diff/id/0
+---
+2013/05/31 02:15:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to find the code you requested.' in C:\wamp\www\libs-pristine\yii-1.1.13\gii\CCodeGenerator.php:119
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\actions\CInlineAction.php(49): CCodeGenerator->actionDiff()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('diff')
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/controller/...')
+#6 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/yii-test/index.php/gii/controller/diff/id/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/controller/diff/id/0
+---
+2013/05/31 02:15:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to find the code you requested.' in C:\wamp\www\libs-pristine\yii-1.1.13\gii\CCodeGenerator.php:119
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\actions\CInlineAction.php(49): CCodeGenerator->actionDiff()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('diff')
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/controller/...')
+#6 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/yii-test/index.php/gii/controller/diff/id/0
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/controller/diff/id/0
+---
+2013/05/31 02:15:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to find the code you requested.' in C:\wamp\www\libs-pristine\yii-1.1.13\gii\CCodeGenerator.php:119
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\actions\CInlineAction.php(49): CCodeGenerator->actionDiff()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('diff')
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/controller/...')
+#6 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/yii-test/index.php/gii/controller/diff/id/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/controller/diff/id/0
+---
+2013/05/31 02:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to find the code you requested.' in C:\wamp\www\libs-pristine\yii-1.1.13\gii\CCodeGenerator.php:119
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\actions\CInlineAction.php(49): CCodeGenerator->actionDiff()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('diff')
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/controller/...')
+#6 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/yii-test/index.php/gii/controller/diff/id/0
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/controller/diff/id/0
+---
+2013/05/31 02:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to find the code you requested.' in C:\wamp\www\libs-pristine\yii-1.1.13\gii\CCodeGenerator.php:119
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\actions\CInlineAction.php(49): CCodeGenerator->actionDiff()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('diff')
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/controller/...')
+#6 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/yii-test/index.php/gii/controller/diff/id/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/controller/diff/id/0
+---
+2013/05/31 02:15:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('js/lib/jquery.j...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii
+---
+2013/05/31 02:16:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jque...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:16:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jui/js/jquery-ui.min.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jui/...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jui/js/jquery-ui.min.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:16:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jui/css/base/jquery-ui.css".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jui/...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jui/css/base/jquery-ui.css
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:18:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jui/css/base/jquery-ui.css".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jui/...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jui/css/base/jquery-ui.css
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:18:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jque...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:18:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jui/js/jquery-ui.min.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jui/...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jui/js/jquery-ui.min.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:19:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jque...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:19:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jui/css/base/jquery-ui.css".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jui/...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jui/css/base/jquery-ui.css
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:19:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jui/js/jquery-ui.min.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jui/...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jui/js/jquery-ui.min.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:19:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jui/css/base/jquery-ui.css".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jui/...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jui/css/base/jquery-ui.css
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:19:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jque...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:19:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jui/js/jquery-ui.min.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jui/...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jui/js/jquery-ui.min.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:19:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jui/css/base/jquery-ui.css".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jui/...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jui/css/base/jquery-ui.css
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:19:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jque...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:19:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jui/js/jquery-ui.min.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jui/...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jui/js/jquery-ui.min.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:19:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jui/css/base/jquery-ui.css".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jui/...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jui/css/base/jquery-ui.css
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:19:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jque...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:19:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jui/js/jquery-ui.min.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jui/...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jui/js/jquery-ui.min.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:19:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jui/css/base/jquery-ui.css".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jui/...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jui/css/base/jquery-ui.css
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:19:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jque...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:19:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jui/js/jquery-ui.min.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jui/...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jui/js/jquery-ui.min.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:19:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jque...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:19:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jui/css/base/jquery-ui.css".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jui/...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jui/css/base/jquery-ui.css
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:19:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jui/js/jquery-ui.min.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jui/...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jui/js/jquery-ui.min.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:20:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jui/css/base/jquery-ui.css".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jui/...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jui/css/base/jquery-ui.css
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:20:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jque...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:20:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jui/js/jquery-ui.min.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jui/...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jui/js/jquery-ui.min.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:20:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jque...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:20:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jui/css/base/jquery-ui.css".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jui/...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jui/css/base/jquery-ui.css
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:20:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jui/js/jquery-ui.min.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jui/...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jui/js/jquery-ui.min.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:20:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jque...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:20:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jui/js/jquery-ui.min.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jui/...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jui/js/jquery-ui.min.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:20:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jui/css/base/jquery-ui.css".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jui/...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jui/css/base/jquery-ui.css
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/model
+---
+2013/05/31 02:20:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(270): CController->missingAction('js')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('js')
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/default/js/...')
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/gii/default/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/default/login
+---
+2013/05/31 02:20:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(270): CController->missingAction('js')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('js')
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/default/js/...')
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/gii/default/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/default/index
+---
+2013/05/31 02:20:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jque...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/form
+---
+2013/05/31 02:20:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jque...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/controller
+---
+2013/05/31 02:20:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jque...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jquery.js
+---
+2013/05/31 02:20:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/js/l...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/js/lib/jquery.js
+---
+2013/05/31 02:21:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jque...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jquery.js
+---
+2013/05/31 02:21:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/js/l...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/js/lib/jquery.js
+---
+2013/05/31 02:21:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jque...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jquery.js
+---
+2013/05/31 02:21:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/js/l...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/js/lib/jquery.js
+---
+2013/05/31 02:21:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jque...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jquery.js
+---
+2013/05/31 02:21:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/js/l...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/js/lib/jquery.js
+---
+2013/05/31 02:21:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jque...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jquery.js
+---
+2013/05/31 02:21:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/js/l...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/js/lib/jquery.js
+HTTP_REFERER=http://localhost:8080/yii-test/index.php/gii/js/lib/jquery.js
+---
+2013/05/31 02:23:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jque...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jquery.js
+---
+2013/05/31 02:23:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jque...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jquery.js
+---
+2013/05/31 02:23:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jque...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jquery.js
+---
+2013/05/31 02:23:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jque...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jquery.js
+---
+2013/05/31 02:23:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jque...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jquery.js
+---
+2013/05/31 02:24:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jque...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jquery.js
+---
+2013/05/31 02:24:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/js/lib/jquery.js".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('gii/js/lib/jque...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/gii/js/lib/jquery.js
+---
+2013/05/31 02:48:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(270): CController->missingAction('')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('')
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('purchase')
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/purchase
+---
+2013/05/31 02:48:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(270): CController->missingAction('')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('')
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api')
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/api
+---
+2013/05/31 02:54:06 [error] [php] Cannot modify header information - headers already sent by (output started at C:\wamp\www\yii-test\protected\controllers\ApiController.php:121) (C:\wamp\www\yii-test\protected\controllers\ApiController.php:118)
+Stack trace:
+#0 C:\wamp\www\yii-test\protected\controllers\ApiController.php(96): ApiController->_sendResponse()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\actions\CInlineAction.php(49): ApiController->actionCreate()
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): ApiController->runAction()
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): ApiController->runActionWithFilters()
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): ApiController->run()
+#6 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\wamp\www\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/api/purchases
+in C:\wamp\www\yii-test\protected\controllers\ApiController.php (118)
+in C:\wamp\www\yii-test\protected\controllers\ApiController.php (156)
+in C:\wamp\www\yii-test\protected\controllers\ApiController.php (96)
+2013/05/31 03:05:20 [error] [php] Attempt to modify property of non-object (C:\wamp\www\yii-test\protected\controllers\ApiController.php:103)
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): ApiController->runAction()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): ApiController->run()
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/api/purchases
+in C:\wamp\www\yii-test\protected\controllers\ApiController.php (103)
+in C:\wamp\www\yii-test\index.php (13)
+2013/05/31 03:06:09 [error] [php] Attempt to modify property of non-object (C:\wamp\www\yii-test\protected\controllers\ApiController.php:103)
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): ApiController->runAction()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): ApiController->run()
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/api/purchases
+in C:\wamp\www\yii-test\protected\controllers\ApiController.php (103)
+in C:\wamp\www\yii-test\index.php (13)
+2013/05/31 04:15:27 [error] [php] include(ApiHelper.php): failed to open stream: No such file or directory (C:\wamp\www\libs-pristine\yii-1.1.13\YiiBase.php:421)
+Stack trace:
+#0 C:\wamp\www\yii-test\protected\controllers\ApiController.php(29): spl_autoload_call()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\actions\CInlineAction.php(49): ApiController->actionList()
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): ApiController->runAction()
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): ApiController->runActionWithFilters()
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): ApiController->run()
+#6 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\wamp\www\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/api/purchases
+in C:\wamp\www\yii-test\protected\controllers\ApiController.php (29)
+in C:\wamp\www\yii-test\index.php (13)
+2013/05/31 04:16:24 [error] [php] Object of class CInlineAction could not be converted to string (C:\wamp\www\yii-test\protected\controllers\ApiController.php:33)
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): ApiController->runAction()
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): ApiController->runActionWithFilters()
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): ApiController->run()
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/api/purchases
+in C:\wamp\www\yii-test\protected\controllers\ApiController.php (33)
+in C:\wamp\www\yii-test\index.php (13)
+2013/05/31 04:49:45 [error] [php] Invalid argument supplied for foreach() (C:\wamp\www\yii-test\protected\controllers\ApiController.php:78)
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): ApiController->runAction()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): ApiController->run()
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/api/purchase
+in C:\wamp\www\yii-test\protected\controllers\ApiController.php (78)
+in C:\wamp\www\yii-test\index.php (13)
+2013/05/31 04:50:27 [error] [php] Invalid argument supplied for foreach() (C:\wamp\www\yii-test\protected\controllers\ApiController.php:78)
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): ApiController->runAction()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): ApiController->run()
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/api/purchase
+in C:\wamp\www\yii-test\protected\controllers\ApiController.php (78)
+in C:\wamp\www\yii-test\index.php (13)
+2013/06/22 23:20:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "purchase".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(270): CController->missingAction('purchase')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('purchase')
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/purchase')
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/api/purchase
+HTTP_REFERER=http://localhost/yii-test/js/yii-test/index.html
+---
+2013/06/22 23:25:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "purchase".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(270): CController->missingAction('purchase')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('purchase')
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/purchase')
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/api/purchase
+HTTP_REFERER=http://localhost/yii-test/js/yii-test/index.html
+---
+2013/06/22 23:27:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "purchase".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(270): CController->missingAction('purchase')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('purchase')
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/purchase')
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/api/purchase
+HTTP_REFERER=http://localhost/yii-test/js/yii-test/index.html
+---
+2013/06/22 23:27:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "purchase".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(270): CController->missingAction('purchase')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('purchase')
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/purchase/de...')
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/api/purchase/delete
+---
+2013/06/22 23:27:48 [error] [php] Undefined variable: ModelClass (C:\wamp\www\yii-test\protected\controllers\ApiController.php:106)
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): ApiController->runAction()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): ApiController->run()
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/api/delete/purchase
+in C:\wamp\www\yii-test\protected\controllers\ApiController.php (106)
+in C:\wamp\www\yii-test\index.php (13)
+2013/06/22 23:27:54 [error] [php] Undefined variable: ModelClass (C:\wamp\www\yii-test\protected\controllers\ApiController.php:106)
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): ApiController->runAction()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): ApiController->run()
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/api/delete/purchase/10
+in C:\wamp\www\yii-test\protected\controllers\ApiController.php (106)
+in C:\wamp\www\yii-test\index.php (13)
+2013/06/22 23:34:17 [error] [php] Undefined index: model (C:\wamp\www\yii-test\protected\controllers\ApiController.php:105)
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): ApiController->runAction()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): ApiController->run()
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/api/delete/purchase/10
+in C:\wamp\www\yii-test\protected\controllers\ApiController.php (105)
+in C:\wamp\www\yii-test\index.php (13)
+2013/06/22 23:36:31 [error] [php] Undefined index: DELETE (C:\wamp\www\yii-test\protected\controllers\ApiController.php:105)
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): ApiController->runAction()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): ApiController->run()
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/api/delete/purchase/10
+in C:\wamp\www\yii-test\protected\controllers\ApiController.php (105)
+in C:\wamp\www\yii-test\index.php (13)
+2013/06/22 23:40:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "purchase".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(270): CController->missingAction('purchase')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('purchase')
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/purchase')
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/api/purchase
+HTTP_REFERER=http://localhost/yii-test/js/yii-test/index.html
+---
+2013/06/22 23:40:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "purchase".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(270): CController->missingAction('purchase')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('purchase')
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/purchase')
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/api/purchase?0=1
+HTTP_REFERER=http://localhost/yii-test/js/yii-test/index.html
+---
+2013/06/22 23:41:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "purchase".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(270): CController->missingAction('purchase')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('purchase')
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/purchase')
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/api/purchase?0=1
+HTTP_REFERER=http://localhost/yii-test/js/yii-test/index.html
+---
+2013/06/22 23:43:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "purchase".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(270): CController->missingAction('purchase')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('purchase')
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/purchase')
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/api/purchase?0=1
+HTTP_REFERER=http://localhost/yii-test/js/yii-test/index.html
+---
+2013/06/22 23:43:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "purchase".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(270): CController->missingAction('purchase')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('purchase')
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/purchase')
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/api/purchase?0=1
+HTTP_REFERER=http://localhost/yii-test/js/yii-test/index.html
+---
+2013/06/22 23:44:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "purchase".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(270): CController->missingAction('purchase')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('purchase')
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/purchase')
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/api/purchase?0=1
+HTTP_REFERER=http://localhost/yii-test/js/yii-test/index.html
+---
+2013/06/22 23:53:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "apipurchase/view".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('apipurchase/vie...')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/apipurchase/1
+HTTP_REFERER=http://localhost/yii-test/js/yii-test/index.html
+---
+2013/06/23 18:40:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "purchase".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(270): CController->missingAction('purchase')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('purchase')
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/purchase/un...')
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/api/purchase/undefined
+HTTP_REFERER=http://localhost/yii-test/js/yii-test/index.html
+---
+2013/06/23 18:44:04 [error] [php] Undefined index: model (C:\wamp\www\yii-test\protected\controllers\ApiController.php:105)
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): ApiController->runAction()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): ApiController->run()
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/api/delete/purchase/10
+in C:\wamp\www\yii-test\protected\controllers\ApiController.php (105)
+in C:\wamp\www\yii-test\index.php (13)
+2013/06/26 20:57:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "purchase".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(270): CController->missingAction('purchase')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('purchase')
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/purchase/im...')
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/api/purchase/import
+---
+2013/06/26 20:57:45 [error] [php] Undefined index: model (C:\wamp\www\yii-test\protected\controllers\ApiController.php:101)
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): ApiController->runAction()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): ApiController->run()
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/api/import/purchase/
+in C:\wamp\www\yii-test\protected\controllers\ApiController.php (101)
+in C:\wamp\www\yii-test\index.php (13)
+2013/06/26 20:57:52 [error] [php] Undefined index: model (C:\wamp\www\yii-test\protected\controllers\ApiController.php:101)
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): ApiController->runAction()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): ApiController->run()
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/api/import/purchase
+in C:\wamp\www\yii-test\protected\controllers\ApiController.php (101)
+in C:\wamp\www\yii-test\index.php (13)
+2013/06/26 20:58:28 [error] [php] Undefined index: model (C:\wamp\www\yii-test\protected\controllers\ApiController.php:101)
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): ApiController->runAction()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): ApiController->run()
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/api/import/purchase
+in C:\wamp\www\yii-test\protected\controllers\ApiController.php (101)
+in C:\wamp\www\yii-test\index.php (13)
+2013/06/26 20:58:29 [error] [php] Undefined index: model (C:\wamp\www\yii-test\protected\controllers\ApiController.php:101)
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): ApiController->runAction()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): ApiController->run()
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/api/import/purchase
+in C:\wamp\www\yii-test\protected\controllers\ApiController.php (101)
+in C:\wamp\www\yii-test\index.php (13)
+2013/06/26 20:59:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "purchase".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(270): CController->missingAction('purchase')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('purchase')
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/purchase/im...')
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/api/purchase/import
+---
+2013/06/29 17:42:23 [error] [php] Undefined index: model (C:\wamp\www\yii-test\protected\controllers\ApiController.php:101)
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): ApiController->runAction()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): ApiController->run()
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/api/import/purchase
+in C:\wamp\www\yii-test\protected\controllers\ApiController.php (101)
+in C:\wamp\www\yii-test\index.php (13)
+2013/06/29 20:22:13 [error] [php] Undefined index: model (C:\wamp\www\yii-test\protected\controllers\ApiController.php:101)
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): ApiController->runAction()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): ApiController->run()
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/api/import/purchase
+in C:\wamp\www\yii-test\protected\controllers\ApiController.php (101)
+in C:\wamp\www\yii-test\index.php (13)
+2013/06/29 20:22:15 [error] [php] Undefined index: model (C:\wamp\www\yii-test\protected\controllers\ApiController.php:101)
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): ApiController->runAction()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): ApiController->run()
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/api/import/purchase
+in C:\wamp\www\yii-test\protected\controllers\ApiController.php (101)
+in C:\wamp\www\yii-test\index.php (13)
+2013/06/29 20:26:03 [error] [php] Undefined index: model (C:\wamp\www\yii-test\protected\controllers\ApiController.php:101)
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): ApiController->runAction()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): ApiController->run()
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/api/import/purchase
+in C:\wamp\www\yii-test\protected\controllers\ApiController.php (101)
+in C:\wamp\www\yii-test\index.php (13)
+2013/06/29 20:26:04 [error] [php] Undefined index: model (C:\wamp\www\yii-test\protected\controllers\ApiController.php:101)
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): ApiController->runAction()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): ApiController->run()
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/api/import/purchase
+in C:\wamp\www\yii-test\protected\controllers\ApiController.php (101)
+in C:\wamp\www\yii-test\index.php (13)
+2013/06/29 20:28:18 [error] [php] Undefined index: model (C:\wamp\www\yii-test\protected\controllers\ApiController.php:102)
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): ApiController->runAction()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): ApiController->run()
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/api/import/purchase
+in C:\wamp\www\yii-test\protected\controllers\ApiController.php (102)
+in C:\wamp\www\yii-test\index.php (13)
+2013/06/29 20:30:50 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('import')
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/import/purc...')
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-test/index.php/api/import/purchase
+---
+2013/06/29 20:31:10 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('import')
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/import/purc...')
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-test/index.php/api/import/purchase
+---
+2013/06/29 20:31:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "purchase".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(270): CController->missingAction('purchase')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('purchase')
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/purchase/im...')
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/api/purchase/import
+---
+2013/06/29 20:31:26 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('import')
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/import/purc...')
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-test/index.php/api/import/purchase/
+---
+2013/06/29 20:31:47 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('import')
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/import/purc...')
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-test/index.php/api/import/purchase/
+---
+2013/06/29 20:31:49 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('import')
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/import/purc...')
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-test/index.php/api/import/purchase/
+---
+2013/06/29 20:31:51 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('import')
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/import/purc...')
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-test/index.php/api/import/purchase/
+---
+2013/06/29 20:31:58 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('import')
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/import/purc...')
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-test/index.php/api/import/purchase/
+---
+2013/06/29 20:54:52 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('import')
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/import/purc...')
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-test/index.php/api/import/purchase/
+---
+2013/06/29 20:59:52 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('import')
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/import/purc...')
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-test/index.php/api/import/purchase/
+---
+2013/06/29 21:00:11 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('import')
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/import/purc...')
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-test/index.php/api/import/purchase/
+---
+2013/06/29 21:04:56 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('import')
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/import/purc...')
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-test/index.php/api/import/purchase/
+---
+2013/06/29 21:05:45 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('import')
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/import')
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-test/index.php/api/import/purchase/
+---
+2013/06/29 21:07:44 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('import')
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/import')
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-test/index.php/api/import/purchase/
+---
+2013/06/29 21:08:33 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('import')
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/import')
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-test/index.php/api/import/purchase/
+---
+2013/06/29 21:13:24 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('import')
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/import')
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-test/index.php/api/import/purchase/
+---
+2013/06/29 21:28:30 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('import')
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/import')
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-test/index.php/api/import/purchase/
+---
+2013/06/29 21:29:31 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('import')
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/import')
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-test/index.php/api/import/purchase/
+---
+2013/06/29 21:52:32 [error] [php] Invalid argument supplied for foreach() (C:\wamp\www\yii-test\protected\controllers\ApiController.php:124)
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): ApiController->runAction()
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): ApiController->runActionWithFilters()
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): ApiController->run()
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#7 C:\wamp\www\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/api/import/purchase/
+in C:\wamp\www\yii-test\protected\controllers\ApiController.php (124)
+in C:\wamp\www\yii-test\index.php (13)
+2013/06/29 22:42:57 [error] [php] json_decode() expects parameter 1 to be string, array given (C:\wamp\www\libs-pristine\yii-1.1.13\web\helpers\CJSON.php:327)
+Stack trace:
+#0 unknown(0): ApiController->actionImport()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): ApiController->runAction()
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): ApiController->runActionWithFilters()
+#6 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): ApiController->run()
+#7 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/api/import/purchase/
+in C:\wamp\www\yii-test\protected\controllers\ApiController.php (157)
+in C:\wamp\www\yii-test\index.php (13)
+2013/06/29 22:43:08 [error] [php] json_decode() expects parameter 1 to be string, array given (C:\wamp\www\libs-pristine\yii-1.1.13\web\helpers\CJSON.php:327)
+Stack trace:
+#0 unknown(0): ApiController->actionImport()
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): ApiController->runAction()
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): ApiController->runActionWithFilters()
+#6 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): ApiController->run()
+#7 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/api/import/purchase/
+in C:\wamp\www\yii-test\protected\controllers\ApiController.php (157)
+in C:\wamp\www\yii-test\index.php (13)
+2013/06/29 23:54:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "purchase".' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(270): CController->missingAction('purchase')
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('purchase')
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/purchase/im...')
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/api/purchase/import
+---
+2013/06/30 02:08:11 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('create')
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/create')
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-test/index.php/api/purchase
+HTTP_REFERER=http://localhost/yii-test/js/yii-test/index.html
+---
+2013/06/30 02:09:46 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('create')
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/create')
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-test/index.php/api/purchase
+HTTP_REFERER=http://localhost/yii-test/js/yii-test/index.html
+---
+2013/06/30 02:10:00 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\libs-pristine\yii-1.1.13\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), NULL)
+#3 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(282): CController->run('create')
+#4 C:\wamp\www\libs-pristine\yii-1.1.13\web\CWebApplication.php(141): CWebApplication->runController('api/create')
+#5 C:\wamp\www\libs-pristine\yii-1.1.13\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\wamp\www\yii-test\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii-test/index.php/api/purchase
+HTTP_REFERER=http://localhost/yii-test/js/yii-test/index.html
+---

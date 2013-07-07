@@ -1,0 +1,28 @@
+<form name="addPurchaseForm" ng-controller="PurchaseCreateCtrl" class="purchase-form">
+    <div class="control-group" ng-class="{error: addPurchaseForm.name.$invalid}">
+        <label>Name</label>
+        <input type="text" name="name" ng-model="purchase.name" required />
+        <span ng-show="addPurchaseForm.name.$error.required" class="help-inline">Required</span>
+    </div>
+    <div class="control-group" ng-class="{error: addPurchaseForm.price.$invalid}">
+        <label for="appendedInput">Price</label>
+        <div class="input-append">
+            <input id="appendedInput"
+                   type="number"
+                   class="input-price-size"
+                   step="0.50"
+                   name="price"
+                   min="0"
+                   max="10000"
+                   ng-model="purchase.price"
+                   required />
+            <span class="add-on">€</span>
+        </div>
+        <span ng-show="addPurchaseForm.price.$error.required" class="help-inline">Required</span>
+    </div>
+    <label>Description</label>
+    <textarea name="description" ng-model="purchase.description"></textarea>
+    <br />
+    <a href="#/" class="btn">Cancel</a>
+    <button class="btn btn-primary" ng-click="save()" ng-disabled="addPurchaseForm.$invalid">Save</button>
+</form>
